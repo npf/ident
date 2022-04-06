@@ -1,3 +1,8 @@
+2022/04/06
+version 0.0.4
+* fix warning with Timeout
+* fix gemspec
+
 2010/08/11
 version 0.0.3
 * fixed a bug where additional whitespace in a response would break
