@@ -59,7 +59,7 @@ class Ident
   # @return [Response::ERROR]  in case of an error
   def self.request(ip, outbound, inbound, timeout_after = 10)
     r = nil
-    timeout(timeout_after) do
+    Timeout.timeout(timeout_after) do
       t = TCPSocket.new(ip, 113)
       t.puts [outbound, inbound].join(', ')
       r = t.gets
@@ -73,6 +73,3 @@ class Ident
     Response.from(r)
   end
 end
-
-
-
