@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name              = "ident"
-  s.summary           = "A Ruby library for querying identd servers (RFC 1413)"
-  s.description       = s.summary
-  s.version           = "0.0.3"
+  s.summary           = "A Ruby ident client library"
+  s.description       = "A Ruby library for querying identd servers (RFC 1413)"
+  s.licenses          = ['BSD-3-Clause']
+  s.version           = "0.0.4"
   s.author            = "Dominik Honnef"
   s.email             = "dominikh@fork-bomb.org"
-  s.date              = Date.today.to_s
   s.homepage          = "http://fork-bomb.org"
   s.rubyforge_project = "ident"
 
