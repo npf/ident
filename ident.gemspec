@@ -4,9 +4,9 @@ Gem::Specification.new do |s|
   s.description       = "A Ruby library for querying identd servers (RFC 1413)"
   s.licenses          = ['BSD-3-Clause']
   s.version           = "0.0.4"
-  s.author            = "Dominik Honnef"
-  s.email             = "dominikh@fork-bomb.org"
-  s.homepage          = "http://fork-bomb.org"
+  s.authors           = ["Dominik Honnef", "Pierre Neyron"]
+  s.email             = ["dominikh@fork-bomb.org", "pierre.neyron@imag.fr"]
+  s.homepage          = "https://github.com/npf/ident"
   s.rubyforge_project = "ident"
 
   s.has_rdoc = 'yard'
